@@ -3,7 +3,7 @@
 
 [parity]
 chain = "spec.json"
-base_path = "esn"
+base_path = "esn-am"
 
 [network]
 port = 30300
@@ -12,9 +12,9 @@ reserved_peers = "./reserved_peers.txt"
 
 [rpc]
 port = 8540
-apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
-hosts = ["all"]
-cors = ["all"]
+apis = ["web3", "eth", "net", "parity", "parity_set", "traces", "rpc"]
+# hosts = ["all"]
+# cors = ["all"]
 
 [websockets]
 port = 8450
