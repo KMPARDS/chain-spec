@@ -15,9 +15,14 @@
                 "0x01A1E61c5e993b4F2083c145FB4f2Dd294e23E87",
                 "0xd64473841Ad909411Eb559e2afe5F447508CC78f"
               ]
+            },
+            "80000": {
+              "safeContract": "0x8433035CBb293b0e460E99ad6B42274FdcE7099F"
             }
           }
-        }
+        },
+        "blockRewardContractAddress": "0x69601642417b3fE47E5f8Cc893696a410e8F7448",
+        "blockRewardContractTransition": 80000
       }
     }
   },
